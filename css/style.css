@@ -1,0 +1,31 @@
+h1 {
+    color: darkred;
+}
+
+h2 {
+    color: #2312c1;
+}
+
+#p_morado {
+    color: #b604f2;
+}
+
+#p_naranjo {
+    color: #fb7900;
+}
+
+.derecha {
+    margin-left: 100px;
+}
+
+.derecha200 {
+    margin-left: 200px;
+}
+
+.titulo_rosa {
+    color: #ec7ec0 !important;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link{
+    color: rgb(237, 18, 127) !important;
+}
