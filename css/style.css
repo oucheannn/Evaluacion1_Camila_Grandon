@@ -1,28 +1,34 @@
 /*estilo navbar*/
 .titulo_rosa {
-    color: #ec7ec0 !important;
+    color: cadetblue!important;
 }
 
 .navbar-dark .navbar-nav .active>.nav-link {
-    color: rgb(237, 18, 127) !important;
+    color:cadetblue !important;
 }
+/*logo navbar*/
+.logo-navbar {
+    width: 50px;
+    height: 50px;
+  }
 /*estilo sobre nosotros*/
 .titulo_sobrenosotros {
-    color: aqua;
+    color:black;
 }
+
 /*estilo servicios*/
 .producto h5 {
-    color: #007bff;
+    color:cadetblue;
     /* azul bootstrap */
 }
 
 .producto p {
-    color: #343a40;
+    color:rgb(0, 174, 255);
     /* negro/gris oscuro */
 }
 
 .precio {
-    color: #17a2b8;
+    color:black;
     /* celeste bootstrap */
     font-weight: bold;
 }
@@ -30,4 +36,15 @@
 .condiciones {
     font-size: 0.9rem;
     color: #6c757d;
+}
+
+/*carrusel*/
+.carrusel-altura {
+    height: 50vh;
+    overflow: hidden;
+}
+
+.carrusel-altura img {
+    height: 100%;
+    object-fit: cover;
 }
